@@ -1,5 +1,7 @@
-# asciidoc-guide
+= Asciidoc-guide
+
 Ascii doctor guide
+
 ### Dependencies
 
 #### MAC
@@ -26,3 +28,5 @@ Ascii doctor guide
 
     brew install --cask calibre 
     
+
+==== Create your book with extension `.adoc`, then use/run `make-book.sh` file to generate PDF, mobi, epub, html and PDF

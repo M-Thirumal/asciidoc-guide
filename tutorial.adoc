@@ -11,3 +11,10 @@ An introduction to http://asciidoc.org[AsciiDoc].
 [source,ruby]
 
 puts "Hello, World!"
+
+// Push titles down one level
+:leveloffset: 1
+include::chapter1.adoc[]
+
+// Return to normal title levels
+:leveloffset: 0
