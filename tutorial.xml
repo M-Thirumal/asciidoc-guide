@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?asciidoc-toc?>
+<?asciidoc-numbered?>
+<book xmlns="http://docbook.org/ns/docbook" xmlns:xl="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en">
+<info>
+<title>Hello, AsciiDoc!</title>
+<date>2021-05-10</date>
+<author>
+<personname>
+<firstname>Doc</firstname>
+<surname>Writer</surname>
+</personname>
+<email>doc@example.com</email>
+</author>
+<authorinitials>DW</authorinitials>
+</info>
+<preface>
+<title></title>
+<simpara>An introduction to <link xl:href="http://asciidoc.org">AsciiDoc</link>.</simpara>
+</preface>
+<chapter xml:id="_first_section">
+<title>First Section</title>
+<itemizedlist>
+<listitem>
+<simpara>item 1</simpara>
+</listitem>
+<listitem>
+<simpara>item 2</simpara>
+</listitem>
+</itemizedlist>
+<programlisting language="ruby" linenumbering="unnumbered">puts "Hello, World!"</programlisting>
+</chapter>
+</book>
